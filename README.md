@@ -1,0 +1,171 @@
+# Awesome AI Research Agents
+
+A curated list of AI agents, workflows, skills, and tools for the full AI/ML research lifecycle, from literature review to paper submission.
+
+This list focuses on public GitHub projects that help researchers automate or accelerate at least one part of the research loop:
+
+- Literature review and knowledge synthesis
+- Baseline selection and paper understanding
+- Baseline reproduction and paper-to-code implementation
+- Idea generation and research planning
+- Experiment execution and result analysis
+- Paper writing, review, and submission preparation
+
+## Contents
+
+- [End-to-End Research Agents](#end-to-end-research-agents)
+- [Deep Research and Literature Review](#deep-research-and-literature-review)
+- [Paper Reading and Scholarly QA](#paper-reading-and-scholarly-qa)
+- [Idea Generation and Research Planning](#idea-generation-and-research-planning)
+- [Baseline Reproduction and Paper-to-Code](#baseline-reproduction-and-paper-to-code)
+- [Experiments, Data Science, and Analysis](#experiments-data-science-and-analysis)
+- [Paper Writing and Review](#paper-writing-and-review)
+- [Skills, Prompts, and Agent Workflows](#skills-prompts-and-agent-workflows)
+- [Domain-Specific Research Agents](#domain-specific-research-agents)
+- [Benchmarks and Evaluation](#benchmarks-and-evaluation)
+- [Related Awesome Lists and Surveys](#related-awesome-lists-and-surveys)
+- [Contributing](#contributing)
+
+## End-to-End Research Agents
+
+- [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) - ARIS, a markdown-only autonomous ML research skill system for idea discovery, cross-model review, experiment automation, and paper improvement.
+- [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) - End-to-end framework for automated open-ended scientific discovery.
+- [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) - Agentic tree-search version of AI Scientist for workshop-level automated scientific discovery.
+- [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) - Autonomous research system covering literature review, idea generation, algorithm design, implementation, validation, and result analysis.
+- [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) - Multi-agent research workflow for literature review, planning, experiments, and report writing.
+- [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) - Autonomous idea-to-paper research pipeline compatible with OpenClaw, CLI, Claude Code, and other coding agents.
+- [Technion-Kishony-lab/data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper) - Multi-agent framework that turns raw data into human-verifiable scientific papers.
+- [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) - Research-and-development agent for data-driven AI solution building and industrial R&D workflows.
+- [HKUDS/Auto-Deep-Research](https://github.com/HKUDS/Auto-Deep-Research) - Autonomous deep-research system from the HKUDS research-agent ecosystem.
+- [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) - Always-on autonomous deep researcher for long-running research tasks.
+- [mshumer/autonomous-researcher](https://github.com/mshumer/autonomous-researcher) - Experimental autonomous researcher for generating and iterating on research outputs.
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch) - Experimental autonomous research-agent project and conversation starter for agentic research workflows.
+
+## Deep Research and Literature Review
+
+- [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) - Open deep-research agent for web and local research reports with cited sources.
+- [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research) - LangChain and LangGraph implementation of an open deep-research assistant.
+- [dzhng/deep-research](https://github.com/dzhng/deep-research) - Minimal implementation of an iterative deep-research agent using search, scraping, and LLMs.
+- [nickscamara/open-deep-research](https://github.com/nickscamara/open-deep-research) - Open-source deep-research agent implementation using Firecrawl.
+- [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) - Local-first deep-research assistant with document analysis and report generation.
+- [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch) - Tongyi Deep Research, an open-source deep-research agent from Alibaba NLP.
+- [MiroMindAI/MiroFlow](https://github.com/MiroMindAI/MiroFlow) - Open-source research-agent framework for deep information seeking and multi-step research.
+- [TheBlewish/Automated-AI-Web-Researcher-Ollama](https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama) - Local Ollama-based automated web researcher.
+- [silicatelabs/airesearchagent](https://github.com/silicatelabs/airesearchagent) - Autonomous research agent for planning, searching, analyzing, and synthesizing reports.
+- [stanford-oval/storm](https://github.com/stanford-oval/storm) - Knowledge curation and long-form report generation system with citation-focused research workflows.
+- [Black-Lights/prisma-review-tool](https://github.com/Black-Lights/prisma-review-tool) - AI-assisted systematic literature review tool aligned with PRISMA 2020 workflows.
+
+## Paper Reading and Scholarly QA
+
+- [Future-House/paper-qa](https://github.com/Future-House/paper-qa) - Retrieval-augmented question answering over scientific papers.
+- [CurryTang/Amadeus](https://github.com/CurryTang/Amadeus) - AI research assistant that reads, summarizes, organizes, and acts on academic papers.
+- [AbhaySingh71/Agentic-AI-Researcher](https://github.com/AbhaySingh71/Agentic-AI-Researcher) - LangGraph-based assistant for fetching, summarizing, and analyzing arXiv papers.
+- [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) - MCP server for arXiv search and paper access in agent workflows.
+- [blessonism/openclaw-search-skills](https://github.com/blessonism/openclaw-search-skills) - Search skills for OpenClaw-style research agents.
+
+## Idea Generation and Research Planning
+
+- [pkargupta/idea_catalyst](https://github.com/pkargupta/idea_catalyst) - Metacognition-driven framework for scientific brainstorming with humans and LLMs.
+- [AutoSurveys/AutoSurvey](https://github.com/AutoSurveys/AutoSurvey) - LLM-based automated academic survey generation.
+- [IAAR-Shanghai/SurveyX](https://github.com/IAAR-Shanghai/SurveyX) - Academic survey paper generation with literature search and synthesis.
+- [TechnicolorGUO/InteractiveSurvey](https://github.com/TechnicolorGUO/InteractiveSurvey) - Personalized and interactive survey paper generation system.
+- [InternScience/SurveyForge](https://github.com/InternScience/SurveyForge) - Memory-driven and outline-oriented automated survey generation system.
+- [Superbooming/Awesome-scientific-idea-generation](https://github.com/Superbooming/Awesome-scientific-idea-generation) - Curated resources on AI-assisted scientific idea generation.
+
+## Baseline Reproduction and Paper-to-Code
+
+- [going-doer/Paper2Code](https://github.com/going-doer/Paper2Code) - Multi-agent system for turning machine-learning papers into runnable code.
+- [yunx-z/MLRC-Bench](https://github.com/yunx-z/MLRC-Bench) - Machine-learning research challenge benchmark built around agent-executable tasks.
+- [UNITES-Lab/Awesome-MLE-Coding-Agent](https://github.com/UNITES-Lab/Awesome-MLE-Coding-Agent) - Curated work on machine-learning engineering and research-coding agents.
+
+## Experiments, Data Science, and Analysis
+
+- [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous data science and analyst-grade reports.
+- [WecoAI/aideml](https://github.com/WecoAI/aideml) - AI-driven machine-learning engineering and experimentation environment.
+- [ICICLE-ai/ScienceAgent](https://github.com/ICICLE-ai/ScienceAgent) - Language agent for data-driven scientific discovery tasks, including ScienceAgentBench workflows.
+- [HKUSTDial/awesome-data-agents](https://github.com/HKUSTDial/awesome-data-agents) - Curated data-agent resources relevant to experiment analysis and scientific data workflows.
+
+## Paper Writing and Review
+
+- [Leey21/awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) - Curated AI research writing skills and repositories for paper drafting, related work, citations, and polishing.
+- [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) - Research paper writing skills for agentic drafting workflows.
+- [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) - Scientific writing skillset for Claude-style coding agents.
+- [lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills) - Academic paper skills for writing and research-agent workflows.
+- [claesbackman/AI-research-feedback](https://github.com/claesbackman/AI-research-feedback) - AI-assisted research feedback workflows.
+- [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) - Skills for Nature-style scientific paper drafting.
+- [fcakyon/phd-skills](https://github.com/fcakyon/phd-skills) - PhD and academic research skills for agentic workflows.
+
+## Skills, Prompts, and Agent Workflows
+
+- [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) - Large open-source skill library for AI agents conducting research from idea to paper.
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) - Academic research skills for literature review, writing, review, and research assistance.
+- [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) - Codex-native academic research skills suite.
+- [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Scientific agent skills for research workflows.
+- [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) - Nature-style research and writing skills.
+- [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) - Claude-oriented scholarly research skills.
+- [HKUSTDial/Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) - Supervisor skills for agentic research coordination.
+- [brycewang-stanford/Auto-Research-Skills](https://github.com/brycewang-stanford/Auto-Research-Skills) - Bundled skills and catalog for auto-research workflows.
+- [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) - Empirical research skills and tool catalog for agentic data analysis.
+- [rohunvora/x-research-skill](https://github.com/rohunvora/x-research-skill) - Research skill package for agent workflows.
+- [Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) - Deep-research skills for AI agents.
+- [andrehuang/research-companion](https://github.com/andrehuang/research-companion) - Research companion skillset for assisted research workflows.
+- [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) - Academic skills designed for Codex and Claude-style agents.
+- [luwill/research-skills](https://github.com/luwill/research-skills) - Research skills for LLM agent workflows.
+- [poemswe/co-researcher](https://github.com/poemswe/co-researcher) - Co-researcher skills for collaborative agentic research.
+
+## Domain-Specific Research Agents
+
+- [snap-stanford/Biomni](https://github.com/snap-stanford/Biomni) - Biomedical AI agent environment for life-science research tasks.
+- [aipoch/medical-research-skills](https://github.com/aipoch/medical-research-skills) - Medical research skills for agent platforms.
+- [ur-whitelab/chemcrow-public](https://github.com/ur-whitelab/chemcrow-public) - Chemistry-focused LLM agent for tool-augmented chemical research.
+- [lamm-mit/SciAgentsDiscovery](https://github.com/lamm-mit/SciAgentsDiscovery) - Scientific discovery agents for materials and scientific reasoning workflows.
+- [zou-group/virtual-lab](https://github.com/zou-group/virtual-lab) - Multi-agent virtual lab for AI-assisted biological research.
+- [gomesgroup/coscientist](https://github.com/gomesgroup/coscientist) - AI co-scientist system for autonomous experimental planning and scientific discovery.
+- [Future-House/robin](https://github.com/Future-House/robin) - Research agent from FutureHouse for scientific discovery workflows.
+- [bio-xyz/BioAgents](https://github.com/bio-xyz/BioAgents) - Bio-agent tools and workflows for biological research.
+
+## Benchmarks and Evaluation
+
+- [openai/preparedness PaperBench](https://github.com/openai/preparedness/tree/main/project/paperbench) - Benchmark for evaluating AI agents on replicating AI research papers.
+- [snap-stanford/MLAgentBench](https://github.com/snap-stanford/MLAgentBench) - Benchmark suite for research-agent experimentation ability.
+- [OSU-NLP-Group/ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) - ICLR 2025 benchmark for data-driven scientific discovery agents.
+- [allenai/discoverybench](https://github.com/allenai/discoverybench) - Discovery benchmark for scientific reasoning and discovery systems.
+- [Future-House/aviary](https://github.com/Future-House/aviary) - Agent benchmark environment from FutureHouse.
+- [weAIDB/SurveyBench](https://github.com/weAIDB/SurveyBench) - Benchmark for evaluating AI-generated academic surveys.
+- [RUCAIBox/awesome-agent-harness](https://github.com/RUCAIBox/awesome-agent-harness) - Curated benchmark and harness resources for AI agents, including scientific discovery benchmarks.
+
+## Related Awesome Lists and Surveys
+
+- [ResearAI/Awesome-AI-Scientist](https://github.com/ResearAI/Awesome-AI-Scientist) - Survey and resource list for AI Scientist research.
+- [worldbench/awesome-ai-auto-research](https://github.com/worldbench/awesome-ai-auto-research) - Survey-oriented list for AI-assisted and automated research.
+- [ai-agents-2030/awesome-deep-research-agent](https://github.com/ai-agents-2030/awesome-deep-research-agent) - Awesome list focused on deep-research agents.
+- [handsome-rich/Awesome-Auto-Research-Tools](https://github.com/handsome-rich/Awesome-Auto-Research-Tools) - Auto-research tools across literature review, experiments, writing, and review.
+- [ai-boost/awesome-ai-for-science](https://github.com/ai-boost/awesome-ai-for-science) - Broad AI-for-science resource list.
+- [Research-Equality/awesome-ai-scientists](https://github.com/Research-Equality/awesome-ai-scientists) - AI scientist systems, platforms, and benchmarks.
+- [tsinghua-fib-lab/Awesome-AI-Scientists](https://github.com/tsinghua-fib-lab/Awesome-AI-Scientists) - Paper and project list for AI scientist systems.
+- [chchenhui/awesome-research-agents](https://github.com/chchenhui/awesome-research-agents) - Research-agent papers, projects, and benchmarks.
+- [alvinreal/awesome-autoresearch](https://github.com/alvinreal/awesome-autoresearch) - Curated autonomous research resources.
+- [zkzhou126/AI-for-Research](https://github.com/zkzhou126/AI-for-Research) - From hypothesis to publication: resources for AI-assisted research.
+- [HKUST-KnowComp/Awesome-LLM-Scientific-Discovery](https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery) - LLM-based scientific discovery resources.
+- [AgenticScience/Awesome-Agent-Scientists](https://github.com/AgenticScience/Awesome-Agent-Scientists) - Agent scientists and agentic science paper list.
+- [zoedsy/awesome-science-agents](https://github.com/zoedsy/awesome-science-agents) - Science-agent papers, systems, and benchmarks.
+- [natnew/Awesome-AI-Scientists](https://github.com/natnew/Awesome-AI-Scientists) - AI scientist resources and benchmarks.
+- [0x11c11e/awesome-ai-research-tools](https://github.com/0x11c11e/awesome-ai-research-tools) - AI research tools list.
+- [kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents) - Broad AI agents awesome list with research-agent entries.
+
+## Contributing
+
+Pull requests are welcome. Good additions usually meet these criteria:
+
+- Public GitHub repository
+- Directly helps with AI/ML research, scientific research, literature review, experiment automation, paper writing, or research-agent evaluation
+- Has enough documentation for a researcher to understand what it does
+- Preferably includes an open-source license
+
+Suggested entry format:
+
+```md
+- [owner/repo](https://github.com/owner/repo) - One-sentence description focused on the research workflow stage it supports.
+```
+
+Please avoid adding closed-source SaaS products unless they have a substantial open-source component.
