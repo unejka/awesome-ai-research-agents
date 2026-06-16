@@ -60,6 +60,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 - [Future-House/paper-qa](https://github.com/Future-House/paper-qa) - Retrieval-augmented question answering over scientific papers.
 - [CurryTang/Amadeus](https://github.com/CurryTang/Amadeus) - AI research assistant that reads, summarizes, organizes, and acts on academic papers.
 - [AbhaySingh71/Agentic-AI-Researcher](https://github.com/AbhaySingh71/Agentic-AI-Researcher) - LangGraph-based assistant for fetching, summarizing, and analyzing arXiv papers.
+- [Leey21/arxiv-translator](https://github.com/Leey21/arxiv-translator) - Agent skill for translating arXiv LaTeX sources into Chinese PDFs while preserving layout, formulas, references, and paper structure.
 - [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) - MCP server for arXiv search and paper access in agent workflows.
 - [blessonism/openclaw-search-skills](https://github.com/blessonism/openclaw-search-skills) - Search skills for OpenClaw-style research agents.
 
@@ -98,6 +99,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 ## Skills, Prompts, and Agent Workflows
 
 - [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) - Large open-source skill library for AI agents conducting research from idea to paper.
+- [unejka/useful-research-skills](https://github.com/unejka/useful-research-skills) - Codex skill collection for arXiv paper reading, Chinese paper translation, and combined translation plus methodology interpretation workflows.
 - [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) - Academic research skills for literature review, writing, review, and research assistance.
 - [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) - Codex-native academic research skills suite.
 - [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) - Scientific agent skills for research workflows.
