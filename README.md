@@ -31,6 +31,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 - [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) - ARIS, a markdown-only autonomous ML research skill system for idea discovery, cross-model review, experiment automation, and paper improvement.
 - [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) - End-to-end framework for automated open-ended scientific discovery.
 - [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) - Agentic tree-search version of AI Scientist for workshop-level automated scientific discovery.
+- [ResearAI/DeepScientist](https://github.com/ResearAI/DeepScientist) - Local-first autonomous research studio for long-horizon baseline reproduction, experiment iteration, findings memory, and paper-ready outputs.
 - [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher) - Autonomous research system covering literature review, idea generation, algorithm design, implementation, validation, and result analysis.
 - [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) - Multi-agent research workflow for literature review, planning, experiments, and report writing.
 - [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) - Autonomous idea-to-paper research pipeline compatible with OpenClaw, CLI, Claude Code, and other coding agents.
@@ -42,6 +43,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 - [nanoAgentTeam/research-claw](https://github.com/nanoAgentTeam/research-claw) - Self-hosted AI research assistant for literature search, LaTeX projects, Overleaf sync, deadline tracking, and chat-channel workflows.
 - [leonardodalinky/SciDER](https://github.com/leonardodalinky/SciDER) - Scientific data-centric end-to-end researcher with ideation, data analysis, paper writing, web UI, coding backend, and benchmark workflows.
 - [Technion-Kishony-lab/data-to-paper](https://github.com/Technion-Kishony-lab/data-to-paper) - Multi-agent framework that turns raw data into human-verifiable scientific papers.
+- [Eldergenix/Plato-Scientific-Research-Autonomous-Agent](https://github.com/Eldergenix/Plato-Scientific-Research-Autonomous-Agent) - Multi-agent system that turns experimental data into peer-reviewable LaTeX manuscripts with retrieval, citation validation, evidence matrices, and revision loops.
 - [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) - Research-and-development agent for data-driven AI solution building and industrial R&D workflows.
 - [HKUDS/Auto-Deep-Research](https://github.com/HKUDS/Auto-Deep-Research) - Autonomous deep-research system from the HKUDS research-agent ecosystem.
 - [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) - Always-on autonomous deep researcher for long-running research tasks.
@@ -63,6 +65,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 - [stanford-oval/storm](https://github.com/stanford-oval/storm) - Knowledge curation and long-form report generation system with citation-focused research workflows.
 - [Black-Lights/prisma-review-tool](https://github.com/Black-Lights/prisma-review-tool) - AI-assisted systematic literature review tool aligned with PRISMA 2020 workflows.
 - [PouriaRouzrokh/LatteReview](https://github.com/PouriaRouzrokh/LatteReview) - Multi-agent Python package for academic literature review, screening, scoring, abstraction, and reviewer-style workflows.
+- [HolobiomicsLab/Perspicacite-AI](https://github.com/HolobiomicsLab/Perspicacite-AI) - Local-first scientific literature research assistant with multi-database search, citation-graph expansion, agentic RAG modes, MCP, and provenance export.
 - [Arcadia-Science/agent-literature-review](https://github.com/Arcadia-Science/agent-literature-review) - Prototype multi-agent lab for paper discussion, local-folder paper reading, research planning, and cross-disciplinary synthesis.
 - [yzyzieee/Research-Literature-Hub](https://github.com/yzyzieee/Research-Literature-Hub) - Team literature-management hub that turns verified paper records into reusable LLM context and versioned GitHub knowledge records.
 
@@ -80,6 +83,8 @@ This list focuses on public GitHub projects that help researchers automate or ac
 
 - [pkargupta/idea_catalyst](https://github.com/pkargupta/idea_catalyst) - Metacognition-driven framework for scientific brainstorming with humans and LLMs.
 - [ChicagoHAI/hypothesis-generation](https://github.com/ChicagoHAI/hypothesis-generation) - HypoGeniC and HypoRefine frameworks for LLM-based hypothesis generation from datasets, literature, and agentic refinement loops.
+- [jataware/open-coscientist](https://github.com/jataware/open-coscientist) - Open LangGraph adaptation of AI co-scientist for literature-grounded hypothesis generation, review, ranking, tournament judging, and evolution.
+- [ai-in-pm/AI-Co-Scientist](https://github.com/ai-in-pm/AI-Co-Scientist) - Multi-agent scientific research framework inspired by AI Co-Scientist for generating, evaluating, ranking, and refining hypotheses.
 - [AutoSurveys/AutoSurvey](https://github.com/AutoSurveys/AutoSurvey) - LLM-based automated academic survey generation.
 - [IAAR-Shanghai/SurveyX](https://github.com/IAAR-Shanghai/SurveyX) - Academic survey paper generation with literature search and synthesis.
 - [TechnicolorGUO/InteractiveSurvey](https://github.com/TechnicolorGUO/InteractiveSurvey) - Personalized and interactive survey paper generation system.
