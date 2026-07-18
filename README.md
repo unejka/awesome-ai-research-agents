@@ -81,6 +81,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 
 ## Idea Generation and Research Planning
 
+- [pengsida/learning_research](https://github.com/pengsida/learning_research) - Research training guide covering topic selection, idea development, experiments, paper writing, rebuttals, and academic presentations.
 - [pkargupta/idea_catalyst](https://github.com/pkargupta/idea_catalyst) - Metacognition-driven framework for scientific brainstorming with humans and LLMs.
 - [ChicagoHAI/hypothesis-generation](https://github.com/ChicagoHAI/hypothesis-generation) - HypoGeniC and HypoRefine frameworks for LLM-based hypothesis generation from datasets, literature, and agentic refinement loops.
 - [jataware/open-coscientist](https://github.com/jataware/open-coscientist) - Open LangGraph adaptation of AI co-scientist for literature-grounded hypothesis generation, review, ranking, tournament judging, and evolution.
