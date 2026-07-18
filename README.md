@@ -115,6 +115,7 @@ This list focuses on public GitHub projects that help researchers automate or ac
 - [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) - Multi-agent framework that turns ideas and experimental logs into submission-ready LaTeX manuscripts with literature synthesis and figures.
 - [TobiasBlask/open-paper-machine](https://github.com/TobiasBlask/open-paper-machine) - Claude Code plugin for autonomous academic paper production, citation verification, LaTeX export, revision, and paper-vs-code audits.
 - [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) - Research paper writing skills for agentic drafting workflows.
+- [blader/humanizer](https://github.com/blader/humanizer) - Portable cross-agent skill that revises AI-generated prose to sound more natural and can calibrate rewrites to a researcher's own voice.
 - [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) - Scientific writing skillset for Claude-style coding agents.
 - [lishix520/academic-paper-skills](https://github.com/lishix520/academic-paper-skills) - Academic paper skills for writing and research-agent workflows.
 - [claesbackman/AI-research-feedback](https://github.com/claesbackman/AI-research-feedback) - AI-assisted research feedback workflows.
