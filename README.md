@@ -9,7 +9,7 @@ This list follows the natural stages of an AI/ML research project:
 - Implementation, experiments, and analysis
 - Paper writing, review, and polishing
 
-It also covers end-to-end systems that automate the entire pipeline, reusable research skills, domain-specific agents, benchmarks, and related resource lists.
+It also covers end-to-end systems that automate the entire pipeline, reusable research skills, domain-specific agents, agent harnesses and benchmarks, and related resource lists.
 
 ## Contents
 
@@ -20,7 +20,7 @@ It also covers end-to-end systems that automate the entire pipeline, reusable re
 - [Paper Writing and Review](#paper-writing-and-review)
 - [Research Skills and Agent Workflows](#research-skills-and-agent-workflows)
 - [Domain-Specific Research Agents](#domain-specific-research-agents)
-- [Benchmarks and Evaluation](#benchmarks-and-evaluation)
+- [Agent Harnesses, Benchmarks, and Evaluation](#agent-harnesses-benchmarks-and-evaluation)
 - [Related Awesome Lists and Surveys](#related-awesome-lists-and-surveys)
 - [Contributing](#contributing)
 
@@ -170,19 +170,24 @@ Curated resources for research coding:
 - [bio-xyz/BioAgents](https://github.com/bio-xyz/BioAgents) - Bio-agent tools and workflows for biological research.
 - [jiaxianyan/BioDataLab](https://github.com/jiaxianyan/BioDataLab) - Benchmark and evaluation suite for LLM agents performing real-world biological database curation tasks.
 
-## Benchmarks and Evaluation
+## Agent Harnesses, Benchmarks, and Evaluation
+
+Harnesses and execution environments that give research agents tools, feedback loops, and sandboxed runtimes to actually execute and iterate on research tasks:
+
+- [snap-stanford/MLAgentBench](https://github.com/snap-stanford/MLAgentBench) - Harness and benchmark suite for research-agent experimentation ability.
+- [allenai/discoveryworld](https://github.com/allenai/discoveryworld) - Virtual environment harness for developing and evaluating automated scientific discovery agents.
+- [ulab-uiuc/research-town](https://github.com/ulab-uiuc/research-town) - Multi-agent research-community simulator harness with research agents, collaborative environments, and task engines.
+- [Future-House/aviary](https://github.com/Future-House/aviary) - Agent harness and benchmark environment from FutureHouse.
+- [RUCAIBox/awesome-agent-harness](https://github.com/RUCAIBox/awesome-agent-harness) - Curated benchmark and harness resources for AI agents, including scientific discovery benchmarks.
+
+Benchmarks and evaluation datasets for measuring agent performance on research tasks:
 
 - [openai/preparedness PaperBench](https://github.com/openai/preparedness/tree/main/project/paperbench) - Benchmark for evaluating AI agents on replicating AI research papers.
-- [snap-stanford/MLAgentBench](https://github.com/snap-stanford/MLAgentBench) - Benchmark suite for research-agent experimentation ability.
 - [OSU-NLP-Group/ScienceAgentBench](https://github.com/OSU-NLP-Group/ScienceAgentBench) - ICLR 2025 benchmark for data-driven scientific discovery agents.
 - [yunx-z/MLRC-Bench](https://github.com/yunx-z/MLRC-Bench) - Machine-learning research challenge benchmark built around agent-executable tasks.
-- [allenai/discoveryworld](https://github.com/allenai/discoveryworld) - Virtual environment for developing and evaluating automated scientific discovery agents.
-- [ulab-uiuc/research-town](https://github.com/ulab-uiuc/research-town) - Multi-agent research-community simulator with research agents, collaborative environments, and task engines.
 - [deep-symbolic-mathematics/llm-srbench](https://github.com/deep-symbolic-mathematics/llm-srbench) - Benchmark for evaluating LLM-based scientific equation discovery and symbolic regression beyond memorized formulas.
 - [allenai/discoverybench](https://github.com/allenai/discoverybench) - Discovery benchmark for scientific reasoning and discovery systems.
-- [Future-House/aviary](https://github.com/Future-House/aviary) - Agent benchmark environment from FutureHouse.
 - [weAIDB/SurveyBench](https://github.com/weAIDB/SurveyBench) - Benchmark for evaluating AI-generated academic surveys.
-- [RUCAIBox/awesome-agent-harness](https://github.com/RUCAIBox/awesome-agent-harness) - Curated benchmark and harness resources for AI agents, including scientific discovery benchmarks.
 
 ## Related Awesome Lists and Surveys
 
